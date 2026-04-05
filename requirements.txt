@@ -1,0 +1,31 @@
+# ─────────────────────────────────────────────
+# Transit Stop Identification — Dependencies
+# ─────────────────────────────────────────────
+# Install everything:
+#   pip install -r requirements.txt
+
+# Phase 1 (current) — data collection
+overpy>=0.7.2
+requests>=2.31.0
+
+# Phase 1 model — MobileNetV2 classification
+tensorflow>=2.13.0
+matplotlib>=3.7.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Phase 2 — YOLOv8 object detection (uncomment when ready)
+# ultralytics>=8.0.0
+# opencv-python>=4.8.0
+
+# Phase 3 — OCR (uncomment when ready)
+# easyocr>=1.7.0
+# rapidfuzz>=3.0.0
+
+# Phase 4 — REST API (uncomment when ready)
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+# python-multipart>=0.0.6
+
+# Data augmentation — useful from Phase 2 onward
+# albumentations>=1.3.0
